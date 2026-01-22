@@ -91,6 +91,7 @@ void I2C_SlaveDMATxCpltCallback()
 // // Command handler
 void I2C_SlaveDMARxCpltCallback()
 {
+    ErrorStatus state;
 
     float valF = *((float*) (i2cDataRx + 1));
 
@@ -209,6 +210,15 @@ void I2C_SlaveDMARxCpltCallback()
         default:
             break;
     }
+    do
+    {
+       state = Slave_Transmit(i2cDataTx,5,5000);
+    } while (state != SUCCESS);
+    if(i2cDataRx[0] == 0x21)
+    {
+        Set_ID(boardConfig.nodeId);
+    }
+
 }
 
 

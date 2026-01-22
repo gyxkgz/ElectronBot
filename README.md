@@ -1,7 +1,34 @@
-# ElectronBot: Mini Desktop Robot
+<h1 align="center">ElectronBot: Mini Desktop Robot</h1>
+<div align="center">
+
+
+<a href="https://github.com/peng-zhihui/ElectronBot/stargazers"><img src="https://img.shields.io/github/stars/peng-zhihui/ElectronBot" alt="Stars Badge"/></a>
+<a href="https://github.com/peng-zhihui/ElectronBot/network/members"><img src="https://img.shields.io/github/forks/peng-zhihui/ElectronBot" alt="Forks Badge"/></a>
+<a href="https://github.com/peng-zhihui/ElectronBot/pulls"><img src="https://img.shields.io/github/issues-pr/peng-zhihui/ElectronBot" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/peng-zhihui/ElectronBot/issues"><img src="https://img.shields.io/github/issues/peng-zhihui/ElectronBot" alt="Issues Badge"/></a>
+<a href="https://github.com/peng-zhihui/ElectronBot/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/peng-zhihui/ElectronBot?color=2b9348"></a>
+<a href="https://github.com/peng-zhihui/ElectronBot/blob/master/LICENSE"><img src="https://img.shields.io/github/license/peng-zhihui/ElectronBot?color=2b9348" alt="License Badge"/></a>
+
+<a href="https://github.com/peng-zhihui/ElectronBot/blob/main/enREADME.md"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=English README 英文自述文件&color=%230076D6&style=flat&logo=google-chrome&logoColor=green" alt="website"/></a>
+
+<a href="https://www.youtube.com/watch?v=FmKTiH5Lca4"><img src="https://img.shields.io/youtube/views/FmKTiH5Lca4?style=social" alt="YouTube Video Views"/></a>
+<a href="https://www.youtube.com/channel/UCBAdGeil51Iw4y29Sh9Y7hA"><img src="https://img.shields.io/youtube/channel/subscribers/UCBAdGeil51Iw4y29Sh9Y7hA?style=social" alt="YouTube Channel Subscribers"/></a>
+  
+<!-- <img src="http://hits.dwyl.com/peng-zhihui/ElectronBot.svg" alt="Hits Badge"/> -->
+
+<i>喜欢这个项目吗？请考虑给 Star ⭐️ 以帮助改进！</i>
+
+</div>
+
+---
+
 > 本项目是一个桌面级小机器工具人，外观设计的灵感来源是WALL-E里面的EVE~机器人具备USB通信显示画面功能，具备6个自由度（手部roll、pitch，颈部，腰部各一个），使用自己修改的特制舵机支持关节角度回传。
 >
 > 本项目提供了配套的全套开发资料和对应SDK以供二次开发，SDK使用说明见后文。
+>
+> **视频介绍**：[【自制】我做了个能动的 电 脑 配 件！【软核】_哔哩哔哩](https://www.bilibili.com/video/BV1ka411b76m/)
+>
+> **Video** : [I made a cute mini desktop robot ! - YouTube](https://www.youtube.com/watch?v=F29vrvUwqS4)
 
 
 
@@ -19,7 +46,11 @@
 * 上述预编译文件的源码和固件也在文件夹里有提供，相当于一个最小测试工程，可以自己查看代码进行调试。
 * 注意在6个舵机没有测试验证成功之前，调试代码不要使用舵机收发指令的功能，不然总线会阻塞导致程序卡住，推荐的方式是先单独一个一个功能调试，完成了之后再整合做联调。
 
-> 安装教程可以参考这位[绿荫阿广](https://space.bilibili.com/25228512)同学的安装视频 ：https://www.bilibili.com/video/BV1oY4y1v7oN
+> 安装教程可以参考：
+>
+> [数码甲鱼的简单生活](https://space.bilibili.com/1668139036) 同学的胎教级教程：https://www.bilibili.com/video/BV1sY4y1Y7t6
+>
+> [绿荫阿广](https://space.bilibili.com/25228512)同学的安装视频 ：https://www.bilibili.com/video/BV1oY4y1v7oN
 
 **22.4.17更新：**
 
@@ -202,7 +233,7 @@ SDK架构设计如图：
 
 ### 有的问题在Issues里面已经解答了，问问题之前先翻一下open/closed的Issues。
 
-
+B站网友的视频教程：[https://space.bilibili.com/25228512](https://space.bilibili.com/25228512)
 
 > 感谢以下项目：
 >
@@ -212,5 +243,4 @@ SDK架构设计如图：
 >
 > [Lexikos/AutoHotkey_L: AutoHotkey - macro-creation and automation-oriented scripting utility for Windows. (github.com)](https://github.com/Lexikos/AutoHotkey_L)
 >
-> https://blog.csdn.net/pq8888168/article/details/85781908
 
